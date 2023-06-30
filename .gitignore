@@ -1,0 +1,29 @@
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and benchmark files
+*.test
+*.out
+*.prof
+
+# Go build output
+/bin/
+/pkg/
+
+# Go module dependencies
+/go.mod
+/go.sum
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
